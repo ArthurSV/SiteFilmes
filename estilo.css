@@ -9,7 +9,7 @@ body {
    width: 17px;
 }
 
-#iconeD{
+#iconeD {
    margin: 0px;
    padding: 0px;
    position: relative;
@@ -23,23 +23,35 @@ body {
    right: 7vh;
 }
 
+.opMenu {
+   display: flex;
+   flex-direction: row;
+
+
+}
+
+.opMenu ul:hover {
+   cursor: pointer;
+}
 
 .opMenu ul {
-   
-   align-items: flex-start;
+   align-items: flex;
    flex-direction: row;
    list-style: none;
    display: flex;
+
    font-size: 11px;
    flex: 1;
-   gap: 80px
+   gap: 20vh
 }
 
-.opMenu ul li{
+.opMenu ul li {
    font-weight: 400;
    font-size: 18px;
    display: flex;
-   padding: 30px;
+   position: relative;
+   left: 28vh;
+   margin: 0px;
    gap: 8px;
 }
 
@@ -48,7 +60,7 @@ body {
    display: flex;
    list-style-type: none;
    gap: 26px;
-   
+
 }
 
 .listaOriginal ul li {
@@ -70,10 +82,12 @@ body {
    margin-right: 2px;
    background-size: cover;
 }
-.listaOriginal ul li:hover{
+
+.listaOriginal ul li:hover {
    transform: scale(1.1);
 }
-.continueWatching ul li:hover{
+
+.continueWatching ul li:hover {
    transform: scale(1.1);
 }
 
@@ -84,7 +98,7 @@ body {
    display: flex;
    list-style-type: none;
    gap: 50px;
-   
+
 }
 
 .continueWatching ul li {
